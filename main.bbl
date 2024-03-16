@@ -1,0 +1,594 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{AARNO2008692}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0bb88db58704058511891c9bad7b8c73}{%
+           family={Aarno},
+           familyi={A\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d8a72b3bd29e9244932e7c10628e6b03}{%
+           family={Kragic},
+           familyi={K\bibinitperiod},
+           given={Danica},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8c8b328bcf56c6038291bad46abcd2e}
+      \strng{fullhash}{b8c8b328bcf56c6038291bad46abcd2e}
+      \strng{bibnamehash}{b8c8b328bcf56c6038291bad46abcd2e}
+      \strng{authorbibnamehash}{b8c8b328bcf56c6038291bad46abcd2e}
+      \strng{authornamehash}{b8c8b328bcf56c6038291bad46abcd2e}
+      \strng{authorfullhash}{b8c8b328bcf56c6038291bad46abcd2e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Acquiring, representing and modelling human skills is one of the key research areas in teleoperation, programming-by-demonstration and human-machine collaborative settings. The problems are challenging mainly because of the lack of a general mathematical model to describe human skills. One of the common approaches is to divide the task that the operator is executing into several subtasks or low-level subsystems in order to provide manageable modelling. In this paper we consider the use of a Layered Hidden Markov Model (LHMM) to model human skills. We evaluate a gesteme classifier that classifies motions into basic action-primitives, or gestemes. The gesteme classifiers are then used in a LHMM to model a teleoperated task. The proposed methodology uses three different HMM models at the gesteme level: one-dimensional HMM, multi-dimensional HMM and multi-dimensional HMM with Fourier transform. The online and off-line classification performance of these three models is evaluated with respect to the number of gestemes, the influence of the number of training samples, the effect of noise and the effect of the number of observation symbols. We also apply the LHMM to data recorded during the execution of a trajectory tracking task in 2D and 3D with a mobile manipulator in order to provide qualitative as well as quantitative results for the proposed approach. The results indicate that the LHMM is suitable for modelling teleoperative trajectory-tracking tasks and that the difference in classification performance between one and multidimensional HMMs for gesteme classification is small. It can also be seen that the LHMM is robust with respect to misclassifications in the underlying gesteme classifiers.}
+      \field{issn}{0921-8890}
+      \field{journaltitle}{Robotics and Autonomous Systems}
+      \field{number}{8}
+      \field{title}{Motion intention recognition in robot assisted applications}
+      \field{volume}{56}
+      \field{year}{2008}
+      \field{pages}{692\bibrangedash 705}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.robot.2007.11.005
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0921889007001704
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0921889007001704
+      \endverb
+      \keyw{Layered Hidden Markov Models,Human-machine collaboration,Motion intention recognition}
+    \endentry
+    \entry{7932524}{article}{}
+      \name{author}{4}{}{%
+        {{hash=86e22026fda5dc469d728c5dbeb02f12}{%
+           family={Ballesteros},
+           familyi={B\bibinitperiod},
+           given={Joaquin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2e08cca04d4d307d74dc847d9244b1d0}{%
+           family={Urdiales},
+           familyi={U\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8323f4cb63f795d4b7a8cc23c105d827}{%
+           family={Velasco},
+           familyi={V\bibinitperiod},
+           given={Antonio\bibnamedelimb B.\bibnamedelimi Martínez},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9ebdc287d16092cf1cd6aee0ada6b8d1}{%
+           family={Ramos-Jiménez},
+           familyi={R\bibinithyphendelim J\bibinitperiod},
+           given={Gonzalo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d39ca5a9d63559661db1676b5c692bd}
+      \strng{fullhash}{82111a3bf2d0b64af2763c06bd8f1662}
+      \strng{bibnamehash}{9d39ca5a9d63559661db1676b5c692bd}
+      \strng{authorbibnamehash}{9d39ca5a9d63559661db1676b5c692bd}
+      \strng{authornamehash}{9d39ca5a9d63559661db1676b5c692bd}
+      \strng{authorfullhash}{82111a3bf2d0b64af2763c06bd8f1662}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Human-Machine Systems}
+      \field{number}{6}
+      \field{title}{A Biomimetical Dynamic Window Approach to Navigation for Collaborative Control}
+      \field{volume}{47}
+      \field{year}{2017}
+      \field{pages}{1123\bibrangedash 1133}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/THMS.2017.2700633
+      \endverb
+      \keyw{Navigation;Trajectory;Heuristic algorithms;Legged locomotion;Hospitals;Robot sensing systems;Learning systems;Indoor navigation;rehabilitation robotics;robot learning}
+    \endentry
+    \entry{5480475}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bacdea873fd4ba05ad401b50898a5d71}{%
+           family={Calinon},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=358b80d57422436724b90fbd618f05bc}{%
+           family={D'halluin},
+           familyi={D\bibinitperiod},
+           given={Florent},
+           giveni={F\bibinitperiod}}}%
+        {{hash=dcd1b76348dcd43d7ebbee4d2543da6e}{%
+           family={Sauser},
+           familyi={S\bibinitperiod},
+           given={Eric\bibnamedelima L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=9d989a5cb2cad2afc11c8e0d17980e42}{%
+           family={Caldwell},
+           familyi={C\bibinitperiod},
+           given={Darwin\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=2bf8fb79e82c47c4c2d7dd6da2e359fd}{%
+           family={Billard},
+           familyi={B\bibinitperiod},
+           given={Aude\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{268f15effd0720b16ee8ada9ddf4b06b}
+      \strng{fullhash}{5add6821a8b9114ec31cccf434be35c9}
+      \strng{bibnamehash}{268f15effd0720b16ee8ada9ddf4b06b}
+      \strng{authorbibnamehash}{268f15effd0720b16ee8ada9ddf4b06b}
+      \strng{authornamehash}{268f15effd0720b16ee8ada9ddf4b06b}
+      \strng{authorfullhash}{5add6821a8b9114ec31cccf434be35c9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Robotics and Automation Magazine}
+      \field{number}{2}
+      \field{title}{Learning and Reproduction of Gestures by Imitation}
+      \field{volume}{17}
+      \field{year}{2010}
+      \field{pages}{44\bibrangedash 54}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/MRA.2010.936947
+      \endverb
+      \keyw{Hidden Markov models;Humans;Humanoid robots;Robustness;Encoding;Character generation;Feeds;Robot programming;Education;Educational robots}
+    \endentry
+    \entry{coppeliasim2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d0a08affc2ffbda3cb539391daa8f954}{%
+           family={{Coppelia Robotics}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0a08affc2ffbda3cb539391daa8f954}
+      \strng{fullhash}{d0a08affc2ffbda3cb539391daa8f954}
+      \strng{bibnamehash}{d0a08affc2ffbda3cb539391daa8f954}
+      \strng{authorbibnamehash}{d0a08affc2ffbda3cb539391daa8f954}
+      \strng{authornamehash}{d0a08affc2ffbda3cb539391daa8f954}
+      \strng{authorfullhash}{d0a08affc2ffbda3cb539391daa8f954}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.coppeliarobotics.com/}}
+      \field{note}{[(cit. on p. 31)]}
+      \field{title}{CoppeliaSim}
+      \field{year}{2023}
+    \endentry
+    \entry{cui2019deep}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=c7f6a3d1688003e0a41e49e8ce85f01e}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Zhiyong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a10dc3fa6ad54be59cdc054e19c8e139}{%
+           family={Ke},
+           familyi={K\bibinitperiod},
+           given={Ruimin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=27126ea4dac694dd71e3383b4b93559e}{%
+           family={Pu},
+           familyi={P\bibinitperiod},
+           given={Ziyuan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=10823b6d64e8068836ff795955b9efb9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yinhai},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a576ece3cad27540d9bee29c4ca78c5}
+      \strng{fullhash}{4e9514a594f7149cb71953d0cd7a8d7c}
+      \strng{bibnamehash}{3a576ece3cad27540d9bee29c4ca78c5}
+      \strng{authorbibnamehash}{3a576ece3cad27540d9bee29c4ca78c5}
+      \strng{authornamehash}{3a576ece3cad27540d9bee29c4ca78c5}
+      \strng{authorfullhash}{4e9514a594f7149cb71953d0cd7a8d7c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Deep Bidirectional and Unidirectional LSTM Recurrent Neural Network for Network-wide Traffic Speed Prediction}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1801.02143
+      \endverb
+    \endentry
+    \entry{9734752}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6fe7cb8f22fc7c73bf37f55725fb4d80}{%
+           family={Gottardi},
+           familyi={G\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c2480ca2b6c15e24492b207e1e771942}{%
+           family={Tortora},
+           familyi={T\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0cb00a2dc9d16a630cb0e9cb1bcf5d4f}{%
+           family={Tosello},
+           familyi={T\bibinitperiod},
+           given={Elisa},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0441759bcd75b2cc1328059b7e2794ee}{%
+           family={Menegatti},
+           familyi={M\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{348221c2768d1c94105b5380ef6bb411}
+      \strng{fullhash}{36cd0b745796fd235435210d3bf318a8}
+      \strng{bibnamehash}{348221c2768d1c94105b5380ef6bb411}
+      \strng{authorbibnamehash}{348221c2768d1c94105b5380ef6bb411}
+      \strng{authornamehash}{348221c2768d1c94105b5380ef6bb411}
+      \strng{authorfullhash}{36cd0b745796fd235435210d3bf318a8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Human-Machine Systems}
+      \field{number}{3}
+      \field{title}{Shared Control in Robot Teleoperation With Improved Potential Fields}
+      \field{volume}{52}
+      \field{year}{2022}
+      \field{pages}{410\bibrangedash 422}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/THMS.2022.3155716
+      \endverb
+      \keyw{Robots;Collision avoidance;Task analysis;Hidden Markov models;Real-time systems;Aerospace electronics;Trajectory;Artificial potential fields (APFs)le2;collision avoidance;human–robot interaction;shared control;soft constraint satisfaction problem (CSP);teleoperation}
+    \endentry
+    \entry{graves2012long}{article}{}
+      \name{author}{2}{}{%
+        {{hash=dfca94b0427da7f9088af596e23b46c0}{%
+           family={Graves},
+           familyi={G\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dfca94b0427da7f9088af596e23b46c0}{%
+           family={Graves},
+           familyi={G\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{51af165729e8639186c3d7bf99f71c92}
+      \strng{fullhash}{51af165729e8639186c3d7bf99f71c92}
+      \strng{bibnamehash}{51af165729e8639186c3d7bf99f71c92}
+      \strng{authorbibnamehash}{51af165729e8639186c3d7bf99f71c92}
+      \strng{authornamehash}{51af165729e8639186c3d7bf99f71c92}
+      \strng{authorfullhash}{51af165729e8639186c3d7bf99f71c92}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Supervised sequence labelling with recurrent neural networks}
+      \field{title}{Long short-term memory}
+      \field{year}{2012}
+      \field{pages}{37\bibrangedash 45}
+      \range{pages}{9}
+    \endentry
+    \entry{doi:10.1177/0278364918776060}{article}{}
+      \name{author}{5}{}{%
+        {{hash=064e4b5c657da78118357fd9fec08fa6}{%
+           family={Javdani},
+           familyi={J\bibinitperiod},
+           given={Shervin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=01898f7da4d873bf4041726b1334fa93}{%
+           family={Admoni},
+           familyi={A\bibinitperiod},
+           given={Henny},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4aae9a6f525cd423afc956a1c03bbf91}{%
+           family={Pellegrinelli},
+           familyi={P\bibinitperiod},
+           given={Stefania},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a77cf8d8e3ec4a0f44508c534df6e5af}{%
+           family={Srinivasa},
+           familyi={S\bibinitperiod},
+           given={Siddhartha\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=49832523c57a7bf40445f071b2ad2c0a}{%
+           family={Bagnell},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi Andrew},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9be9e24e4d9d8ebd5192d44d5f26b359}
+      \strng{fullhash}{9a88247194ca8e449771b1556c54b72a}
+      \strng{bibnamehash}{9be9e24e4d9d8ebd5192d44d5f26b359}
+      \strng{authorbibnamehash}{9be9e24e4d9d8ebd5192d44d5f26b359}
+      \strng{authornamehash}{9be9e24e4d9d8ebd5192d44d5f26b359}
+      \strng{authorfullhash}{9a88247194ca8e449771b1556c54b72a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In shared autonomy, a user and autonomous system work together to achieve shared goals. To collaborate effectively, the autonomous system must know the user’s goal. As such, most prior works follow a predict-then-act model, first predicting the user’s goal with high confidence, then assisting given that goal. Unfortunately, confidently predicting the user’s goal may not be possible until they have nearly achieved it, causing predict-then-act methods to provide little assistance. However, the system can often provide useful assistance even when confidence for any single goal is low (e.g. move towards multiple goals). In this work, we formalize this insight by modeling shared autonomy as a partially observable Markov decision process (POMDP), providing assistance that minimizes the expected cost-to-go with an unknown goal. As solving this POMDP optimally is intractable, we use hindsight optimization to approximate. We apply our framework to both shared-control teleoperation and human–robot teaming. Compared with predict-then-act methods, our method achieves goals faster, requires less user input, decreases user idling time, and results in fewer user–robot collisions.}
+      \field{journaltitle}{The International Journal of Robotics Research}
+      \field{number}{7}
+      \field{title}{Shared autonomy via hindsight optimization for teleoperation and teaming}
+      \field{volume}{37}
+      \field{year}{2018}
+      \field{pages}{717\bibrangedash 742}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1177/0278364918776060
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1177/0278364918776060
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0278364918776060
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0278364918776060
+      \endverb
+    \endentry
+    \entry{9096332}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6001a462e061a81815b3793e6c1deabc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yangtao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3310337ee984876bf79e5e8a5eb68f09}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Tengfei},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c837c93ed25466391ec336b2d28bc191}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=17d81ede4d91afb864479ce5ac4709b2}{%
+           family={Shu},
+           familyi={S\bibinitperiod},
+           given={Xiaosong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=25b49ae9660c763222a6e0c5e8f355f6}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Kang},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb9c2179ac9331710a7a4a5274c418a9}
+      \strng{fullhash}{5cc7601e339e28819ee8bd3e0fa43f5a}
+      \strng{bibnamehash}{eb9c2179ac9331710a7a4a5274c418a9}
+      \strng{authorbibnamehash}{eb9c2179ac9331710a7a4a5274c418a9}
+      \strng{authornamehash}{eb9c2179ac9331710a7a4a5274c418a9}
+      \strng{authorfullhash}{5cc7601e339e28819ee8bd3e0fa43f5a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{The Prediction of Dam Displacement Time Series Using STL, Extra-Trees, and Stacked LSTM Neural Network}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{94440\bibrangedash 94452}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2020.2995592
+      \endverb
+      \keyw{Time series analysis;Market research;Predictive models;Numerical models;Monitoring;Neural networks;Benchmark testing;Dam behavior prediction;time series decomposition;deep learning;ensemble learning}
+    \endentry
+    \entry{ur5manual}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=7e2a43573468b396d2a6391200ee9959}{%
+           family={{Universal Robots}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e2a43573468b396d2a6391200ee9959}
+      \strng{fullhash}{7e2a43573468b396d2a6391200ee9959}
+      \strng{bibnamehash}{7e2a43573468b396d2a6391200ee9959}
+      \strng{authorbibnamehash}{7e2a43573468b396d2a6391200ee9959}
+      \strng{authornamehash}{7e2a43573468b396d2a6391200ee9959}
+      \strng{authorfullhash}{7e2a43573468b396d2a6391200ee9959}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Cited on pages 36, 41, 42}
+      \field{title}{UR5 User Manual}
+    \endentry
+    \entry{100007}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=d11a51ec98185405dbf97dbba776ee3b}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Los Alamitos, CA, USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{d11a51ec98185405dbf97dbba776ee3b}
+      \strng{fullhash}{d11a51ec98185405dbf97dbba776ee3b}
+      \strng{bibnamehash}{d11a51ec98185405dbf97dbba776ee3b}
+      \strng{authorbibnamehash}{d11a51ec98185405dbf97dbba776ee3b}
+      \strng{authornamehash}{d11a51ec98185405dbf97dbba776ee3b}
+      \strng{authorfullhash}{d11a51ec98185405dbf97dbba776ee3b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The author describes a path planning technique for robotic manipulators and mobile robots in the presence of stationary obstacles. The planning consists of applying potential fields around configuration-space obstacles and using these fields to select a safe path for the robot to follow. The advantage of using potential fields in path planning is that they offer a relatively fast and effective way to solve for safe paths around obstacles. In the proposed method of path planning, a trial path is chosen and then modified under the influence of the potential field until an appropriate path is found. By considering the entire path, the problem of being trapped in a local minimum is greatly reduced, allowing the method to be used for global planning. The algorithm was tried with success on many different realistic planning problems. By way of illustration, the algorithm is applied to a two-dimensional revolute manipulator, a mobile robot capable of translation only, and a mobile robot capable of both translation and rotation.}
+      \field{booktitle}{1989 IEEE International Conference on Robotics and Automation}
+      \field{month}{5}
+      \field{title}{Global path planning using artificial potential fields}
+      \field{year}{1989}
+      \field{pages}{316\bibrangessep 317\bibrangessep 318\bibrangessep 319\bibrangessep 320\bibrangessep 321}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1989.100007
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.ieeecomputersociety.org/10.1109/ROBOT.1989.100007
+      \endverb
+      \verb{url}
+      \verb https://doi.ieeecomputersociety.org/10.1109/ROBOT.1989.100007
+      \endverb
+      \keyw{path planning;robot kinematics;mobile robots;orbital robotics;manipulators;process planning}
+    \endentry
+    \entry{wu2019predicting}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d894a9cd17fbb0d00baba33dd1674c43}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Shao-Wen},
+           giveni={S\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{d894a9cd17fbb0d00baba33dd1674c43}
+      \strng{fullhash}{d894a9cd17fbb0d00baba33dd1674c43}
+      \strng{bibnamehash}{d894a9cd17fbb0d00baba33dd1674c43}
+      \strng{authorbibnamehash}{d894a9cd17fbb0d00baba33dd1674c43}
+      \strng{authornamehash}{d894a9cd17fbb0d00baba33dd1674c43}
+      \strng{authorfullhash}{d894a9cd17fbb0d00baba33dd1674c43}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Predicting user intent during teleoperation using neural networks}
+      \field{type}{mathesis}
+      \field{year}{2019}
+    \endentry
+    \entry{10.1162/neco_a_01199}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c447a713c11f58a40c2a899040774a98}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bfc45da190cb661143c8a28c64fe9af3}{%
+           family={Si},
+           familyi={S\bibinitperiod},
+           given={Xiaosheng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=83444556f7d72cd5d40f9416eb4d41f8}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Changhua},
+           giveni={C\bibinitperiod}}}%
+        {{hash=354c58556dbbc757e615ab80be77d404}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jianxun},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4972dc455da6f1318b6136d215d7d53e}
+      \strng{fullhash}{265b947d51b59b1e4e6250ca124ff41a}
+      \strng{bibnamehash}{4972dc455da6f1318b6136d215d7d53e}
+      \strng{authorbibnamehash}{4972dc455da6f1318b6136d215d7d53e}
+      \strng{authornamehash}{4972dc455da6f1318b6136d215d7d53e}
+      \strng{authorfullhash}{265b947d51b59b1e4e6250ca124ff41a}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Recurrent neural networks (RNNs) have been widely adopted in research areas concerned with sequential data, such as text, audio, and video. However, RNNs consisting of sigma cells or tanh cells are unable to learn the relevant information of input data when the input gap is large. By introducing gate functions into the cell structure, the long short-term memory (LSTM) could handle the problem of long-term dependencies well. Since its introduction, almost all the exciting results based on RNNs have been achieved by the LSTM. The LSTM has become the focus of deep learning. We review the LSTM cell and its variants to explore the learning capacity of the LSTM cell. Furthermore, the LSTM networks are divided into two broad categories: LSTM-dominated networks and integrated LSTM networks. In addition, their various applications are discussed. Finally, future research directions are presented for LSTM networks.}}
+      \field{issn}{0899-7667}
+      \field{journaltitle}{Neural Computation}
+      \field{month}{07}
+      \field{number}{7}
+      \field{title}{{A Review of Recurrent Neural Networks: LSTM Cells and Network Architectures}}
+      \field{volume}{31}
+      \field{year}{2019}
+      \field{pages}{1235\bibrangedash 1270}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1162/neco_a_01199
+      \endverb
+      \verb{eprint}
+      \verb https://direct.mit.edu/neco/article-pdf/31/7/1235/1053200/neco\_a\_01199.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1162/neco\_a\_01199
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1162/neco%5C_a%5C_01199
+      \endverb
+    \endentry
+    \entry{ziebart2008maximum}{inproceedings}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{4}{}{%
+        {{hash=8e68984dfc0a273545306feb9b211436}{%
+           family={Ziebart},
+           familyi={Z\bibinitperiod},
+           given={Brian\bibnamedelima D},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ed7b150d84a40a9f9067abd89a23a133}{%
+           family={Maas},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima L},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=49832523c57a7bf40445f071b2ad2c0a}{%
+           family={Bagnell},
+           familyi={B\bibinitperiod},
+           given={J\bibnamedelima Andrew},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=383a958e7dc63d5a57bbeec2a4e3ac93}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Anind\bibnamedelima K},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Chicago, IL, USA}%
+      }
+      \strng{namehash}{6744e752339e5653b85d150b016f3ef3}
+      \strng{fullhash}{ce80c51f0b8dd285e3c25c6d9bb17b7d}
+      \strng{bibnamehash}{6744e752339e5653b85d150b016f3ef3}
+      \strng{authorbibnamehash}{6744e752339e5653b85d150b016f3ef3}
+      \strng{authornamehash}{6744e752339e5653b85d150b016f3ef3}
+      \strng{authorfullhash}{ce80c51f0b8dd285e3c25c6d9bb17b7d}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Aaai}
+      \field{title}{Maximum entropy inverse reinforcement learning.}
+      \field{volume}{8}
+      \field{year}{2008}
+      \field{pages}{1433\bibrangedash 1438}
+      \range{pages}{6}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

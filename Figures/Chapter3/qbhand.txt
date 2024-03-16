@@ -1,0 +1,10 @@
+19 GDL antropomorfi, un’unica sinergia e un solo motore
+Giunti dislocabili auto-riposizionanti
+Forza di presa massima 62N (pinch configuration)
+Payload nominale:  1,1kg (pinch configuration)
+Da aperta a chiusa in 1.1 s
+Interfaccia USB & RS485
+Compatibilità ROS – maggiori informazioni
+Certificato UR+ da Universal Robots
+Peso 0,77 kg
+Feedback in corrente ed in posizione
