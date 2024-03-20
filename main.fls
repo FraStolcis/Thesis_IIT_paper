@@ -1,6 +1,6 @@
-PWD c:\Users\franc\OneDrive\Documenti\IIT\TESI\Master Thesis Fra
+PWD c:\Users\franc\OneDrive\Documenti\IIT\Thesis\Thesis_IIT_paper
 INPUT C:\Users\franc\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\franc\OneDrive\Documenti\IIT\TESI\Master Thesis Fra\main.tex
+INPUT c:\Users\franc\OneDrive\Documenti\IIT\Thesis\Thesis_IIT_paper\main.tex
 OUTPUT main.log
 INPUT .\MastersDoctoralThesis.cls
 INPUT MastersDoctoralThesis.cls
@@ -814,6 +814,12 @@ INPUT .\Figures\Chapter4\Droput.png
 INPUT .\Figures\Chapter4\Droput.png
 INPUT .\Figures\Chapter4\Droput.png
 INPUT .\Figures\Chapter4\Droput.png
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7v.vf
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmr.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr8t.vf
 INPUT .\Chapters\Chapter5.tex
 INPUT .\Chapters\Chapter5.tex
 OUTPUT Chapters\Chapter5.aux
@@ -893,6 +899,8 @@ INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ect
 INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk
 INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0900.pk
 INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0900.pk
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
@@ -901,6 +909,8 @@ INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\mathpazo\f
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\mathpazo\fplmbb.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\mathpazo\fplmbi.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\mathpazo\fplmbi.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\mathpazo\fplmr.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\mathpazo\fplmr.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\mathpazo\fplmri.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\mathpazo\fplmri.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\urw\palatino\uplb8a.pfb

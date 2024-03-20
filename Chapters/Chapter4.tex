@@ -543,6 +543,74 @@ This makes it accessible to users at all levels in the fields of machine learnin
 
 \subsection{Training the model}
 
+Training the LSTM model for binary classification focuses on minimizing the loss function, specifically \textit{'binary\_crossentropy'}, which measures the discrepancy between the predicted probabilities and the actual binary labels, the labels beeing 1 for pick and 0 for not pick. 
+The binary crossentropy loss is given by:
+
+\[
+L(y, \hat{y}) = -\frac{1}{N} \sum_{i=1}^{N} \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right]
+\]
+
+where:
+\begin{itemize}
+    \item $N$ is the number of samples in the dataset,
+    \item $y_i$ is the actual label of the $i$-th sample,
+    \item $\hat{y}_i$ is the predicted probability of the $i$-th sample being in class 1.
+\end{itemize}
+
+This loss function aims to reduce the difference between the model's predictions and the actual labels, guiding the LSTM towards accurate predictions.
+
+The optimization is performed using the Adam optimizer, a sophisticated variant of stochastic gradient descent that adaptively adjusts learning rates for each parameter. 
+The Adam optimizer's update rule is:
+
+\[
+\theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \hat{m}_t
+\]
+
+where:
+\begin{itemize}
+    \item $\theta$ denotes the model parameters,
+    \item $\eta$ is the learning rate,
+    \item $\hat{m}_t$ and $\hat{v}_t$ are the estimates of the first and second moments of the gradients,
+    \item $\epsilon$ is a small scalar added to improve numerical stability.
+\end{itemize}
+
+To combat overfitting and ensure the model's generalizability, a \textit{ModelCheckpoint} callback is utilized. 
+This callback monitors the validation loss, saving the model configuration with the lowest validation loss, thereby facilitating optimal model evaluation and deployment:
+
+\[
+\text{ModelCheckpoint: Save model at epoch } n \text{ if } L_{\text{val},n} < L_{\text{val},n-1}
+\]
+
+where $L_{\text{val},n}$ represents the validation loss at the $n$-th epoch. 
+
+---Guardare i modelli lunedì---
+
+
+
+
+\section{Guidance}
+
+The guidance system is responsible for providing the robot with the necessary information to reach the target object. 
+Since the aim of the project is to develop a guidance to assist the teleoperator, a perfect balance between real time and accuracy is required.
+the approac chosen for this project was the artificail potential field one.
+
+\subsection{Artificial Potential Fields}
+Artificial Potential Fields (APF) play a crucial role in the realm of autonomous robotics, providing a mechanism for navigating through dynamic environments. This strategy employs both attractive and repulsive forces to guide autonomous robots towards their objectives while avoiding obstacles.
+
+\textbf{Attractive Potentials: Conical and Paraboloidal}\\
+The attractive potential within APFs aims to draw the robot towards its goal. This potential can be modeled in two primary forms: paraboloidal and conical. 
+
+\begin{itemize}
+    \item \textit{Paraboloidal Potential:} Characterized by a potential that increases linearly with the distance from the goal, making it effective for precise navigation near the target. However, its linear growth can lead to excessively strong forces at larger distances, potentially causing rapid and unwieldy movements.
+    \item \textit{Conical Potential:} Offers a constant attractive force regardless of the distance from the goal. This ensures that the robot is pulled towards the goal with a steady force, simplifying control and reducing the risk of overly aggressive movements far from the target.
+\end{itemize}
+
+Given the specific requirements and challenges of the intended application, the conical attractive potential has been selected for implementation. The decision is motivated by the need for a consistent guiding force that facilitates predictable and stable motion towards the goal, particularly beneficial in environments where maintaining a steady approach is paramount.
+
+\textbf{Implementation of Conical Attractive Potential}\\
+The conical potential is defined by a constant magnitude of force directed towards the goal, simplifying the calculation of the attractive component in the potential field. This approach minimizes computational complexity and ensures a uniform influence on the robot's motion, making it an ideal choice for real-time navigation and obstacle avoidance tasks.
+
+The adoption of the conical potential aligns with the overarching goal of achieving efficient and reliable motion planning. By ensuring a consistent and manageable force is applied across varying distances, the conical potential facilitates a balanced and controlled approach to reaching the destination, thus enhancing the robot's ability to navigate complex environments effectively.
 
 
 
